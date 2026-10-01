@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790181388412,
+      "tag": "0000_bizarre_tusk",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790207848635,
+      "tag": "0001_fine_adam_destine",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790432417782,
+      "tag": "0002_overconfident_celestials",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1790432682147,
+      "tag": "0003_boring_wraith",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1790505915100,
+      "tag": "0004_bent_pandemic",
+      "breakpoints": true
+    }
+  ]
+}

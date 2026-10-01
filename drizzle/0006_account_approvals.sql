@@ -1,0 +1,3 @@
+ALTER TABLE accounts ADD COLUMN role TEXT NOT NULL DEFAULT 'user';
+ALTER TABLE accounts ADD COLUMN status TEXT NOT NULL DEFAULT 'approved';
+CREATE UNIQUE INDEX IF NOT EXISTS accounts_name_ci ON accounts (name COLLATE NOCASE);

@@ -1,0 +1,1 @@
+ALTER TABLE `directory_options` ADD `customer` text;

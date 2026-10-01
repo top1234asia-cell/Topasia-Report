@@ -1,0 +1,176 @@
+[
+  {
+    "name": "NILAI",
+    "state": "NEGERI SEMBILAN",
+    "surcharge": 500,
+    "total": 1200
+  },
+  {
+    "name": "SEREMBAN",
+    "state": "NEGERI SEMBILAN",
+    "surcharge": 700,
+    "total": 1400
+  },
+  {
+    "name": "KULIM",
+    "state": "KEDAH",
+    "surcharge": 1900,
+    "total": 2600
+  },
+  {
+    "name": "CHEMOR",
+    "state": "PERAK",
+    "surcharge": 1200,
+    "total": 1900
+  },
+  {
+    "name": "IPOH",
+    "state": "PERAK",
+    "surcharge": 1100,
+    "total": 1800
+  },
+  {
+    "name": "PARIT BUNTAR 巴里文打",
+    "state": "PERAK",
+    "surcharge": 1500,
+    "total": 2200
+  },
+  {
+    "name": "KLUANG",
+    "state": "JOHOR",
+    "surcharge": 1650,
+    "total": 2350
+  },
+  {
+    "name": "KULAI",
+    "state": "JOHOR",
+    "surcharge": 1900,
+    "total": 2600
+  },
+  {
+    "name": "MUAR",
+    "state": "JOHOR",
+    "surcharge": 1250,
+    "total": 1950
+  },
+  {
+    "name": "PASIR GUDANG",
+    "state": "JOHOR",
+    "surcharge": 2000,
+    "total": 2700
+  },
+  {
+    "name": "PONTIAN",
+    "state": "JOHOR",
+    "surcharge": 2000,
+    "total": 2700
+  },
+  {
+    "name": "SENAI",
+    "state": "JOHOR",
+    "surcharge": 1900,
+    "total": 2600
+  },
+  {
+    "name": "SEGAMAT",
+    "state": "JOHOR",
+    "surcharge": 1300,
+    "total": 2000
+  },
+  {
+    "name": "SKUDAI",
+    "state": "JOHOR",
+    "surcharge": 2000,
+    "total": 2700
+  },
+  {
+    "name": "PEKAN NENAS",
+    "state": "JOHOR",
+    "surcharge": 2000,
+    "total": 2700
+  },
+  {
+    "name": "SIMPANG RENGGAM",
+    "state": "JOHOR",
+    "surcharge": 1750,
+    "total": 2450
+  },
+  {
+    "name": "BUTTERWORTH",
+    "state": "PENANG",
+    "surcharge": 1900,
+    "total": 2600
+  },
+  {
+    "name": "BENTONG",
+    "state": "PAHANG",
+    "surcharge": 800,
+    "total": 1500
+  },
+  {
+    "name": "BATANG KALI",
+    "state": "PAHANG",
+    "surcharge": 700,
+    "total": 1400
+  },
+  {
+    "name": "GEBENG (KUANTAN)",
+    "state": "PAHANG",
+    "surcharge": 1600,
+    "total": 2300
+  },
+  {
+    "name": "SEMAMBU/KUANTAN",
+    "state": "PAHANG",
+    "surcharge": 1600,
+    "total": 2300
+  },
+  {
+    "name": "ALOR GAJAH",
+    "state": "MELAKA",
+    "surcharge": 1000,
+    "total": 1700
+  },
+  {
+    "name": "BUKIT RAMBAI",
+    "state": "MELAKA",
+    "surcharge": 1000,
+    "total": 1700
+  },
+  {
+    "name": "DURIAN TUNGGAL",
+    "state": "MELAKA",
+    "surcharge": 1100,
+    "total": 1800
+  },
+  {
+    "name": "MERLIMAU",
+    "state": "MELAKA",
+    "surcharge": 1100,
+    "total": 1800
+  },
+  {
+    "name": "IJIOK",
+    "state": "SELANGOR",
+    "surcharge": 300,
+    "total": 1000
+  },
+  {
+    "name": "RASA HULU",
+    "state": "SELANGOR",
+    "surcharge": 600,
+    "total": 1300
+  },
+  {
+    "name": "RAWANG",
+    "state": "SELANGOR",
+    "surcharge": 450,
+    "total": 1150
+  },
+  {
+    "name": "SEMENYIH",
+    "state": "SELANGOR",
+    "surcharge": 450,
+    "total": 1150
+  }
+]

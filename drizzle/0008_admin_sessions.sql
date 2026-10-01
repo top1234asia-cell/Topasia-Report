@@ -1,0 +1,2 @@
+ALTER TABLE accounts ADD COLUMN auth_version INTEGER NOT NULL DEFAULT 0;
+CREATE TABLE IF NOT EXISTS admin_account_audit (id TEXT PRIMARY KEY, actor_id TEXT NOT NULL, target_id TEXT NOT NULL, action TEXT NOT NULL, created_at INTEGER NOT NULL);
