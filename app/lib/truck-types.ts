@@ -1,0 +1,1 @@
+export const truckTypes = ["SIDE LOADER", "SIDE LOADER WAITING", "WAITING FINISH", "POTONG TRAILER"];
