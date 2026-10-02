@@ -1,0 +1,4 @@
+import type {Sheet} from "./sheet-test";
+import {pasteCells} from "./sheet-test";
+export function visibleSheet(s:Sheet,columns:number[]):Sheet {const styles:Sheet['styles']={};Object.entries(s.styles).forEach(([key,st])=>{const [r,c]=key.split(":").map(Number),i=columns.indexOf(c);if(i>=0)styles[`${r}:${i}`]=st;});return {...s,headers:columns.map(c=>s.headers[c]),widths:columns.map(c=>s.widths[c]),rows:s.rows.map(row=>columns.map(c=>row[c])),styles};}
+export function pasteVisible(s:Sheet,r:number,c:number,text:string,rows:number[],columns:number[]):Sheet {const start=columns.indexOf(c);if(start<0)throw Error("请先选择显示的栏目");const projected=visibleSheet(s,columns),next=pasteCells(projected,r,start,text,rows);if(next.headers.length>columns.length)throw Error("粘贴内容超过显示的栏目，请先显示更多栏目");return {...s,rows:next.rows.map((row,i)=>{const result=[...(s.rows[i]||Array(s.headers.length).fill(""))];columns.forEach((original,j)=>result[original]=row[j]);return result;})};}
