@@ -14,6 +14,8 @@ export const directoryOptions = sqliteTable("directory_options", {
   customer: text("customer"),
   currency: text("currency"),
   settlement: text("settlement"),
+  creationType: text("creation_type").notNull().default("常规建单"),
+  collaborator: text("collaborator").notNull().default(""),
   emails: text("emails"),
   createdAt: integer("created_at").notNull(),
 }, table => [uniqueIndex("idx_directory_options_kind_name").on(table.kind, table.name)]);

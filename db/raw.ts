@@ -31,7 +31,7 @@ function connection(): DatabaseSync {
   const db = new DatabaseSync(path, { timeout: 10000 });
   db.exec("PRAGMA journal_mode = WAL; PRAGMA busy_timeout = 10000; PRAGMA foreign_keys = ON;");
   db.exec("CREATE TABLE IF NOT EXISTS __migrations (name TEXT PRIMARY KEY, applied_at INTEGER NOT NULL)");
-  const migrations = ["0000_bizarre_tusk.sql", "0001_fine_adam_destine.sql", "0002_overconfident_celestials.sql", "0003_boring_wraith.sql", "0004_bent_pandemic.sql", "0005_accounts.sql", "0006_account_approvals.sql", "0007_currency_settlement.sql", "0008_admin_sessions.sql"];
+  const migrations = ["0000_bizarre_tusk.sql", "0001_fine_adam_destine.sql", "0002_overconfident_celestials.sql", "0003_boring_wraith.sql", "0004_bent_pandemic.sql", "0005_accounts.sql", "0006_account_approvals.sql", "0007_currency_settlement.sql", "0008_admin_sessions.sql", "0009_group_workflow.sql"];
   for (const name of migrations) {
     if (db.prepare("SELECT 1 FROM __migrations WHERE name = ?").get(name)) continue;
     const sql = readFileSync(join(process.cwd(), "drizzle", name), "utf8").replaceAll("--> statement-breakpoint", "\n");
